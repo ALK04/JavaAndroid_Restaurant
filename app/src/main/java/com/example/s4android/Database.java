@@ -13,8 +13,8 @@ import java.sql.Statement;
 
 public class Database {
 
-    private static final String URL = "jdbc:mysql://192.168.155.63:3306/nouveaus4";
-    private static final String USER = "arno";
+    private static final String URL = "jdbc:mysql://192.168.1.162:3306/s4";
+    private static final String USER = "root";
     private static final String PASSWORD = "root";
 
     public Connection connectDB() {

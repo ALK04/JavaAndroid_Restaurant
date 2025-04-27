@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "571146338216",
+    "project_id": "s4-ajigroup",
+    "storage_bucket": "s4-ajigroup.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571146338216:android:e1fb02fb0ff769d91a679d",
+        "android_client_info": {
+          "package_name": "com.example.s4android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBawPvtitB3uGiyfNYdlx2TZqRciJhIAjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571146338216:android:0145083290d2ebc31a679d",
+        "android_client_info": {
+          "package_name": "com.example.testnotif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBawPvtitB3uGiyfNYdlx2TZqRciJhIAjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -60,6 +60,7 @@ public class GestionTable extends AppCompatActivity {
         for (int i = 0; i < buttons.length; i++) {
             final int tableId = (secteur - 1) * 5 + i + 1;
             if (buttons[i] != null) {
+                buttons[i].setText("Table " + tableId);  // Ajoute le numéro de la table sur le bouton
                 buttons[i].setOnClickListener(v -> ouvrirCommande(tableId));
             }
         }

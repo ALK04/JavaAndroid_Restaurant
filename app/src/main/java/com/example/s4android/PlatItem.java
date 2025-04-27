@@ -9,6 +9,9 @@ public class PlatItem {
 
     private boolean contientSauce;
 
+    private String sauce;
+    private String cuisson;
+
     // Constructor
     public PlatItem(String nom, double prix) {
         this.nom = nom;
@@ -26,6 +29,30 @@ public class PlatItem {
 
     public void setNom(String nom) {
         this.nom = nom;
+    }
+
+    public boolean isContientViande() {
+        return contientViande;
+    }
+
+    public boolean isContientSauce() {
+        return contientSauce;
+    }
+
+    public String getSauce() {
+        return sauce;
+    }
+
+    public void setSauce(String sauce) {
+        this.sauce = sauce;
+    }
+
+    public String getCuisson() {
+        return cuisson;
+    }
+
+    public void setCuisson(String cuisson) {
+        this.cuisson = cuisson;
     }
 
     public double getPrix() {
@@ -73,4 +100,9 @@ public class PlatItem {
     public boolean getContientSauce() {
         return contientSauce;
     }
+
+    public void setCompteur(int compteur) {
+        this.compteur = compteur;
+    }
 }
+
